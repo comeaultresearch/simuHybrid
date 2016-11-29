@@ -5,7 +5,7 @@ Each "simuHybrid_schumer_model_*" script runs simulations of hybrid swarms, trac
 
 Required Python libraries: simuPOP, numpy, scipy, pprint, subprocess (call), sys, time, glob, fileinput, re, math, os
 
-To Run:
+<b>To Run:</b>
 <p>1) download master branch and place all files into a single directory.
 
 2) open a terminal window and cd into the directory containing the scripts.
@@ -17,7 +17,7 @@ To Run:
   - there are three wrappers, one for each of three types of genetic architecture: "dispersed", "interspersed", and "modular".
   - running a given wrapper will call the corresponding *.py script and run the simulations. (e.g. "simuHybrid_wrapper_intersperseArchi.R" will call "simuHubrid_schumer_model_intersperseArchi.py")
  
-Output:
+<b>Output:</b>
 <p>Running a single .R wrapper will generate directories within the same directory containing the .R and .py scripts (one for each population sized simulated; this is specified by a vector of parameter values in the .R wrappers).
 Within each of these directories will be .txt files that contain allele frequencies at each simulated locus, recorded every 100 generations for a total of 1000 generations.</p>
 

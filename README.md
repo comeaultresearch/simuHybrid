@@ -1,5 +1,5 @@
 # simuHybrid
-repo of .py scripts and .R wrappers for simulating hybrid swarms using the Python simuPOP environment.
+Scripts (.py scripts and .R wrappers) for simulating hybrid swarms using the Python simuPOP environment. Goal is to track allele frequency change within hybrid swarms at two type of loci: epistatic pairs and those additively affecting fitness in the environment. Hybrid swarms begin as a pool of F1s.
 
 Each "simuHybrid_schumer_model_*" script runs simulations of hybrid swarms, tracking allele frequencies at loci that affect the fitness of an individual and are arranged in one of three different genetic architectures: "dispersed", "interspersed", or "modular".
 
